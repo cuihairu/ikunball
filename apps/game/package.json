@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "demo:cocos-flow": "tsx src/cocos-flow-demo.ts",
     "demo": "tsx src/example.ts",
     "demo:online": "tsx src/example-online.ts",
     "lint": "tsc -p tsconfig.json --noEmit",

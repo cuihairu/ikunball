@@ -62,3 +62,27 @@
 - `raw/`：原始生成图
 - `exports/`：裁切后的游戏资源
 - `scripts/`：压缩、重命名、批量改尺寸脚本
+
+## 当前提示词模板
+
+- `tools/art/prompts/character-base.md`
+- `tools/art/prompts/character-emotes.md`
+- `tools/art/prompts/character-actions.md`
+- `tools/art/prompts/backgrounds.md`
+- `tools/art/prompts/promo-images.md`
+- `tools/art/prompts/ui-icons.md`
+- `tools/art/prompts/variables.md`
+- `tools/art/prompts/character-template.md`
+- `tools/art/prompts/background-template.md`
+- `tools/art/prompts/batch-plan.md`
+
+## 当前整理工具
+
+- `tools/art/exports/manifest.sample.json`
+- `tools/art/scripts/rename-from-manifest.ps1`
+
+## 配套文档
+
+- 占位资源清单见 `docs/placeholder-assets-checklist.md`
+- 资源命名规范见 `docs/asset-naming-conventions.md`
+- AI 资源导入规则见 `docs/ai-asset-import-rules.md`

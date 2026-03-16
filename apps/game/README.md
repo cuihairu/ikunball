@@ -53,6 +53,8 @@ assets/
 - `assets/scripts/gameplay`：对局会话和核心逻辑模板
 - `assets/scripts/platform`：平台桥接模板
 - `assets/scripts/cocos`：接近 Cocos Component 的场景组件模板
+- `creator-templates`：可直接复制进 Creator 的真实组件壳
+- `assets/scenes`、`assets/prefabs`、`assets/textures`、`assets/audio`：正式工程目录骨架
 
 后续接入 Cocos 时，可以把这些纯 TypeScript 模块迁到 `assets/scripts`，或者作为独立包继续引用。
 
@@ -65,6 +67,13 @@ assets/
 - 配置拉取、排行榜提交、复活广告调用继续走 `src` 里的服务层
 
 详细映射说明见 `docs/cocos-component-mapping.md`。
+Gameplay 节点绑定见 `docs/gameplay-node-binding.md`。
+字段挂载清单见 `docs/cocos-field-checklist.md`。
+真实组件壳见 `docs/creator-component-shells.md`。
+Gameplay 反馈钩子见 `docs/gameplay-feedback-hooks.md`。
+Home/Result 页面钩子见 `docs/home-result-hooks.md`。
+接入顺序手册见 `docs/creator-integration-playbook.md`。
+文件落位图见 `docs/creator-file-map.md`。
 
 ## 当前接入方式
 
@@ -74,3 +83,4 @@ assets/
 
 可以先用 `pnpm --dir apps/game demo` 做一次简单联调。
 - 后端启动后可用 `pnpm --dir apps/game demo:online` 跑一遍真实接口链路。
+- 可用 `pnpm --dir apps/game demo:cocos-flow` 跑一遍内存版场景流模拟。

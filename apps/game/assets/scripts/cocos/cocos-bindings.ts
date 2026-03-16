@@ -6,6 +6,10 @@ export interface ToggleLikeNode {
   setVisible(visible: boolean): void;
 }
 
+export interface EffectLikeNode {
+  play(effectName: string): void;
+}
+
 export interface ProgressLikeNode {
   setProgress(value: number): void;
 }
@@ -17,6 +21,10 @@ export interface ClickHandler {
 export interface ButtonLikeNode {
   setEnabled(enabled: boolean): void;
   bindClick(handler: ClickHandler): void;
+}
+
+export interface PressableLikeNode {
+  bindPress(startHandler: ClickHandler, endHandler: ClickHandler): void;
 }
 
 export interface SceneNavigator {

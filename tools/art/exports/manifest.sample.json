@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "source": "raw/chick_default_candidate_01.png",
+      "target": "exports/chick_idle_placeholder.png",
+      "category": "character",
+      "notes": "主角默认站姿"
+    },
+    {
+      "source": "raw/chick_happy_candidate_01.png",
+      "target": "exports/chick_happy_placeholder.png",
+      "category": "character",
+      "notes": "主角开心表情"
+    },
+    {
+      "source": "raw/chick_hyped_candidate_01.png",
+      "target": "exports/chick_hyped_placeholder.png",
+      "category": "character",
+      "notes": "主角上头表情"
+    },
+    {
+      "source": "raw/chick_broken_candidate_01.png",
+      "target": "exports/chick_broken_placeholder.png",
+      "category": "character",
+      "notes": "主角破防表情"
+    },
+    {
+      "source": "raw/bg_gameplay_candidate_01.png",
+      "target": "exports/bg_gameplay_placeholder.png",
+      "category": "background",
+      "notes": "对局背景"
+    },
+    {
+      "source": "raw/ui_btn_start_candidate_01.png",
+      "target": "exports/ui_btn_start_placeholder.png",
+      "category": "ui",
+      "notes": "开始按钮"
+    }
+  ]
+}

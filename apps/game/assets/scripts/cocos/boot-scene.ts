@@ -3,13 +3,17 @@ import { GameManager } from "../core/game-manager.js";
 import { BootSceneController } from "../ui/boot-scene-controller.js";
 
 export class BootScene {
-  private readonly gameManager = new GameManager();
-  private readonly controller = new BootSceneController(this.gameManager);
+  readonly gameManager: GameManager;
+  private readonly controller: BootSceneController;
 
   constructor(
     private readonly navigator: SceneNavigator,
-    private readonly statusText: TextLikeNode
-  ) {}
+    private readonly statusText: TextLikeNode,
+    gameManager?: GameManager
+  ) {
+    this.gameManager = gameManager ?? new GameManager();
+    this.controller = new BootSceneController(this.gameManager);
+  }
 
   async onLoad(): Promise<void> {
     this.statusText.setText("Loading...");

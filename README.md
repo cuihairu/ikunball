@@ -47,8 +47,18 @@
 
 - 架构和选型见 `docs/architecture.md`
 - 图片工具和出图流程见 `docs/art-tools.md`
+- 占位资源清单见 `docs/placeholder-assets-checklist.md`
+- 资源命名规范见 `docs/asset-naming-conventions.md`
+- AI 资源导入规则见 `docs/ai-asset-import-rules.md`
 - Cocos 工程规划见 `docs/cocos-project-plan.md`
 - Cocos 组件映射见 `docs/cocos-component-mapping.md`
+- Gameplay 节点绑定见 `docs/gameplay-node-binding.md`
+- Cocos 字段挂载清单见 `docs/cocos-field-checklist.md`
+- Creator 组件壳见 `docs/creator-component-shells.md`
+- Creator 接入手册见 `docs/creator-integration-playbook.md`
+- Creator 文件落位图见 `docs/creator-file-map.md`
+- Gameplay 反馈钩子见 `docs/gameplay-feedback-hooks.md`
+- Home/Result 页面钩子见 `docs/home-result-hooks.md`
 - 第一版玩法设计见 `docs/gameplay-v1.md`
 
 ## 当前联调
@@ -56,3 +66,4 @@
 - 启动后端：`go run ./apps/backend/cmd/server`
 - 游戏侧离线 demo：`pnpm --dir apps/game demo`
 - 游戏侧在线 demo：`pnpm --dir apps/game demo:online`
+- 游戏侧内存场景流 demo：`pnpm --dir apps/game demo:cocos-flow`
