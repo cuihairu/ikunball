@@ -14,6 +14,7 @@ export interface ApiResponse<T> {
 export interface GameServices {
   api: GameApi;
   platform: PlatformFacade;
+  runtime: RuntimeConfig;
 }
 
 export interface GameApi {
@@ -33,4 +34,8 @@ export interface PlatformFacade {
   loadBestScore(): number;
   saveBestScore(score: number): void;
   showReviveAd(adUnitId: string): Promise<boolean>;
+}
+
+export interface RuntimeConfig {
+  apiBaseUrl: string;
 }

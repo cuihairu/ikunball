@@ -1,4 +1,5 @@
 export { createGameServices, type BootstrapOptions } from "./bootstrap.js";
+export { resolveRuntimeConfig } from "./config/runtime-config.js";
 export { GameClient, type SubmitScoreOptions } from "./services/game-client.js";
 export { HttpGameApi, type HttpGameApiOptions } from "./services/http-game-api.js";
 export { LocalFallbackGameApi } from "./services/local-fallback-game-api.js";
@@ -9,5 +10,6 @@ export type {
   GameServices,
   LeaderboardEntry,
   PlatformFacade,
+  RuntimeConfig,
   SubmitLeaderboardInput
 } from "./types.js";

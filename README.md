@@ -48,4 +48,11 @@
 - 架构和选型见 `docs/architecture.md`
 - 图片工具和出图流程见 `docs/art-tools.md`
 - Cocos 工程规划见 `docs/cocos-project-plan.md`
+- Cocos 组件映射见 `docs/cocos-component-mapping.md`
 - 第一版玩法设计见 `docs/gameplay-v1.md`
+
+## 当前联调
+
+- 启动后端：`go run ./apps/backend/cmd/server`
+- 游戏侧离线 demo：`pnpm --dir apps/game demo`
+- 游戏侧在线 demo：`pnpm --dir apps/game demo:online`
