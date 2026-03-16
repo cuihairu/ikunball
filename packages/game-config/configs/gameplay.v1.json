@@ -1,0 +1,55 @@
+{
+  "game": {
+    "roundDurationSeconds": 60,
+    "reviveDurationSeconds": 15,
+    "maxReviveCount": 1,
+    "missBreaksCombo": true
+  },
+  "scoring": {
+    "normalHit": 2,
+    "cleanHit": 3,
+    "perfectShotBonus": 1
+  },
+  "combo": {
+    "tiers": [
+      {
+        "combo": 3,
+        "state": "hot"
+      },
+      {
+        "combo": 5,
+        "state": "hyped"
+      },
+      {
+        "combo": 8,
+        "state": "crazy"
+      }
+    ]
+  },
+  "emotion": {
+    "defaultState": "calm",
+    "states": [
+      {
+        "name": "calm",
+        "minCombo": 0
+      },
+      {
+        "name": "happy",
+        "minCombo": 1
+      },
+      {
+        "name": "hyped",
+        "minCombo": 5
+      },
+      {
+        "name": "broken",
+        "minCombo": 0,
+        "trigger": "miss"
+      }
+    ]
+  },
+  "ads": {
+    "rewardedReviveEnabled": true,
+    "interstitialBetweenRoundsEnabled": true
+  }
+}

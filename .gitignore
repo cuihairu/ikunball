@@ -1,0 +1,25 @@
+node_modules
+.pnpm-store
+dist
+temp
+coverage
+.DS_Store
+Thumbs.db
+
+# Cocos Creator
+library
+local
+temp
+build
+
+# Env files
+.env
+.env.*
+
+# IDE
+.idea
+.vscode
+
+# Backend local artifacts
+apps/backend/*.exe
+apps/backend/data/

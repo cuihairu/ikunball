@@ -1,0 +1,19 @@
+{
+  "name": "@i-love-playing-ball/game",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "demo": "tsx src/example.ts",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@i-love-playing-ball/game-config": "workspace:*",
+    "@i-love-playing-ball/platform-sdk": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3"
+  }
+}
